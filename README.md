@@ -13,7 +13,7 @@ Implement a console based visual timer counting up in seconds using TimerCharact
 ### Developer Rules
 - Must use a strict TDD process
 - Must not use abbreviations
-- Must apply SOLID principles
+- Must apply SOLID principles & appropriate design patterns
 - Must keep all objects small, highly cohesive and isolated
 - Must use dependency inversion where appropriate
 - Should use objects in preference to primitives
@@ -21,7 +21,7 @@ Implement a console based visual timer counting up in seconds using TimerCharact
 
 ### Acceptance testing
 
-- GIVEN a new TIMER
+- GIVEN a new TIMER 
 - WHEN `s` is pressed AND after 12 seconds when `s` is pressed again
 - THEN the console display should now show
 ```
