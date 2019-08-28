@@ -2,6 +2,7 @@ package tesco.kata.timer;
 
 import org.junit.Assert;
 import org.junit.Test;
+import tesco.kata.timer.console.ASCIIConstants;
 import tesco.kata.timer.model.TimerModel;
 
 import static org.hamcrest.CoreMatchers.is;
