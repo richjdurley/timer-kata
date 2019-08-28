@@ -7,6 +7,6 @@ public class BannerView implements View<String, TimerModel> {
 
     @Override
     public String compose(TimerModel model) {
-        return FigletFont.convertOneLine(String.format("%06d",model.getValue())).trim();
+        return FigletFont.convertOneLine(String.format("%06d", model.getValue())).trim();
     }
 }

@@ -8,27 +8,18 @@ import tesco.kata.timer.view.BannerView;
 import java.io.IOException;
 
 import static org.hamcrest.core.Is.is;
+import static tesco.kata.timer.TestConstants.TWELVE;
+import static tesco.kata.timer.TestConstants.ZEROS;
 
 public class TimerModelToBannerViewTestShould {
 
-    String ZEROS = "___    ___    ___    ___    ___    ___  \n" +
-            " / _ \\  / _ \\  / _ \\  / _ \\  / _ \\  / _ \\ \n" +
-            "| | | || | | || | | || | | || | | || | | |\n" +
-            "| |_| || |_| || |_| || |_| || |_| || |_| |\n" +
-            " \\___/  \\___/  \\___/  \\___/  \\___/  \\___/";
-
-    String TWELVE = "___    ___    ___    ___   _  ____  \n" +
-            " / _ \\  / _ \\  / _ \\  / _ \\ / ||___ \\ \n" +
-            "| | | || | | || | | || | | || |  __) |\n" +
-            "| |_| || |_| || |_| || |_| || | / __/ \n" +
-            " \\___/  \\___/  \\___/  \\___/ |_||_____|";
 
     @Test
     public void shouldComposeTheViewWithSixZeroValuesFromANewTimer() throws IOException {
         //given
         BannerView numberToBannerView = new BannerView();
         TimerModel model = new TimerModel();
-        Assert.assertThat(numberToBannerView.compose(model),is(ZEROS));
+        Assert.assertThat(numberToBannerView.compose(model), is(ZEROS));
     }
 
     @Test
@@ -37,7 +28,7 @@ public class TimerModelToBannerViewTestShould {
         BannerView numberToBannerView = new BannerView();
         TimerModel model = new TimerModel();
         model.setValue(12);
-        Assert.assertThat(numberToBannerView.compose(model),is(TWELVE));
+        Assert.assertThat(numberToBannerView.compose(model), is(TWELVE));
     }
 
 }
