@@ -6,11 +6,11 @@ A starter project has been provided
  
 ### Acceptance Requirements
 - Initially the timer should be displayed in the console using 6 zeros
-- Press Key '<SPACEBAR>' to start the timer (in seconds)
+- Press Key `<SPACEBAR>` to start the timer (in seconds)
 - Every second refresh the timer display (showing an incremented timer by 1)
-- Press Key '<SPACEBAR>' to toggle starting and stopping the timer
-- Press Key 'r' to reset the timer back to '000000' when the timer is stopped
-- Pressing Key 'r' when the timer is started issues a bell (alert) sound
+- Press Key `<SPACEBAR>` to toggle starting and stopping the timer
+- Press Key r to reset the timer back to '000000' when the timer is stopped
+- Pressing Key r when the timer is started issues a bell (alert) sound
 
 ### Developer Rules
 - Must use a strict TDD process
