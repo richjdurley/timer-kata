@@ -45,6 +45,12 @@ A starter project has been provided
  \___/  \___/  \___/  \___/  \___/  \___/                        
 ```
 
+### Architecture
+The senior architect on this project has given a start and proposed the following architecture.
+This project also uses FigletFont to generate the banners, it is called from BannerView.class.
+
+![Architecture](./architecture.png?raw=true "Architecture Strawman")
+
 
 
 
